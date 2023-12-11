@@ -1,0 +1,12 @@
+server:
+  port: 8110
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3316/db_activiti_740?useSSL=true
+    username : root
+    password : root
+    driver-class-name: com.mysql.jdbc.Driver
+  output:
+    ansi:
+      enabled: always
