@@ -10,4 +10,7 @@ public class Actviti7DemoApplication {
 		SpringApplication.run(Actviti7DemoApplication.class, args);
 	}
 
+	public void hello() {
+		System.out.println("");
+	}
 }
